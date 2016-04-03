@@ -1,0 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	color: @black;
+	font-family: 'Roboto';
+	font-size: 24px;
+	line-height: 26px;
+	background-color: #f0f4f8;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+@blue: #375d85;
+@orange: #d9933b;
+@black: #313131;
+@gray: #4e4e4e;
+
+@import "sprite";
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 70px 0;
+	display: flex;
+	flex-direction: column;
+}
+.title {
+	height: 40px;
+	background-color: @blue;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding-left: 33px;
+	position: relative;
+	font-weight: 300;
+	margin: 20px 0;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: @orange;
+		width: 10px;
+		height: 40px;
+	}
+}
+.small {
+	font-size: 20px;
+	line-height: 20px;
+	color: @gray;
+}
+.site-header {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	&__avatar {
+		width: 221px;
+		height: 221px;
+		border: 6px solid #d9933b;
+		border-radius: 50%;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__name {
+		font-size: 29px;
+		margin-top: 15px;
+		color: @orange;
+		font-weight: 700;
+	}
+	&__position {
+		margin-top: 11px;
+		color: @blue;
+		font-size: 29px;
+	}
+	&__description {
+		text-align: center;
+		margin-top: 33px;
+	}
+}
+.photo {
+	background: url(../img/ava.jpg) center no-repeat;
+	width: 177px;
+	height: 177px;
+	transform: scale(1.2);
+}
+.education {
+	margin-top: 200px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	&__line {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 6px;
+		background-color: @blue;
+		&::before,
+		&::after {
+			content: '';
+			background-color: @blue;
+			width: 24px;
+			height: 24px;
+			border-radius: 50%;
+			position: absolute;
+			top: -8px;
+		}
+		&::before {
+		  left: 0;
+		}
+		&::after {
+			right: 0;
+		}
+	}
+	&__info {
+		text-align: center;
+		margin: 0 27px;
+		padding-top: 27px;
+		position: relative;
+		&::before {
+		  content: '';
+		  width: 22px;
+		  height: 22px;
+		  background-color: #f0f4f8;
+		  border: 2px solid #2c3e50;
+		  border-radius: 50%;
+		  position: absolute;
+		  top: -10px;
+		  left: calc(~"50% - 12px");
+		}
+		&::after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: -170px;
+			left: calc(~"50% - 71px");
+		}
+		&--academy {
+			&::after {
+			  .retina-sprite(@educ-group);
+			}
+		}
+		&--fac {
+			&::after {
+			  .retina-sprite(@specs-group);
+			}
+		}
+		&--spec {
+			&::after {
+			  .retina-sprite(@fac-group);
+			}
+		}
+	}
+}
+.info-experience {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+.info {
+	&--big {
+		width: 40%;
+	}
+	&__work {
+		margin-top: 25px;
+	}
+	&__personal {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-top: 25px;
+	}
+	&__key {
+		width: 116px;
+		display: block;
+	}
+	&__value {
+		margin-left: 20px;
+	}
+}
+
+.prof-skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+	&__group {
+		margin-top: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__name {
+	}
+	&__rate {
+		display: flex;
+		width: 102px;
+		justify-content: space-between;
+	}
+	&__exp {
+		width: 14px;
+		height: 15px;
+		background-color: transparent;
+		border-radius: 50%;
+		border: 1px solid @orange;
+		&--active {
+			background-color: @orange;
+		}
+	}
+}
+.info {
+	&--small {
+		width: 25%;
+	}
+}
+
+.hobbies {
+	margin-top: 70px;
+	&__list {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin: 0 20px;
+		&::before {
+			content: '';
+			display: block;
+			margin-bottom: 20px;
+		}
+		&:nth-child(1) {
+			&::before {
+				.retina-sprite(@self-cultivation-group);
+			}
+		}
+		&:nth-child(2) {
+			&::before {
+				.retina-sprite(@fitness-group);
+			}
+		}
+		&:nth-child(3) {
+			&::before {
+				.retina-sprite(@reading-group);
+			}
+		}
+		&:nth-child(4) {
+			&::before {
+				.retina-sprite(@guitar-group);
+			}
+		}
+		&:nth-child(5) {
+			&::before {
+				.retina-sprite(@bike-group);
+			}
+		}
+		&:nth-child(6) {
+			&::before {
+				.retina-sprite(@i-web-group);
+			}
+		}
+		
+	}
+}

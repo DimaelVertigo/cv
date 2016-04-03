@@ -1,0 +1,1181 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fw",
+				"fw	font-weight"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"s",
+				"sort-merge.js"
+			],
+			[
+				"re",
+				"require.js"
+			],
+			[
+				"sort-",
+				"sort-merge.js"
+			],
+			[
+				"js",
+				"js/"
+			],
+			[
+				"w",
+				"we have a winner.mp3"
+			],
+			[
+				"me",
+				"media/"
+			],
+			[
+				"fade",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"fa",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"f",
+				"f	Anonymous Function"
+			],
+			[
+				"do",
+				"door.jpg	w:22 h:786"
+			],
+			[
+				"c",
+				"comm	Comment - Single-line block comment"
+			],
+			[
+				"Pre",
+				"preventDefault()	Event"
+			],
+			[
+				"jcc",
+				"jc-c	justify-content: center;"
+			],
+			[
+				"aif",
+				"ai-fs	align-items: flex-start;"
+			],
+			[
+				"aic",
+				"ai-c	align-items: center;"
+			],
+			[
+				"cl",
+				"console.log('$0');"
+			],
+			[
+				"setT",
+				"setTimeout(${0:func}, delay)	Window"
+			],
+			[
+				"co",
+				"contact.html"
+			],
+			[
+				"pa",
+				"page-portfolio.php"
+			],
+			[
+				"po",
+				"portfolio-page.php"
+			],
+			[
+				"in",
+				"investment.html"
+			],
+			[
+				"por",
+				"pos-r	position: relative;"
+			],
+			[
+				"mh",
+				"min-height"
+			],
+			[
+				"content",
+				"content-4.less"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"con",
+				"content-2.less"
+			],
+			[
+				"bo",
+				"bootstrap.less"
+			],
+			[
+				"imp",
+				"@import	@import url(${0});"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"on",
+				"on"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ove",
+				"overflow-x"
+			],
+			[
+				"medi",
+				"media	less-media"
+			],
+			[
+				"med",
+				"@media	@media ${1:screen} {\n	${0}\n}"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 11761,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/style.less",
+			"settings":
+			{
+				"buffer_size": 5179,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ec",
+		"selected_items":
+		[
+			[
+				"ec",
+				"Run eCSStractor (with BEM Nesting)"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"hy",
+				"Hyperlink Helper: Lookup with Google & Link"
+			],
+			[
+				"html	",
+				"Set Syntax: HTML"
+			],
+			[
+				"com",
+				"Format CSS: Compact"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"comp",
+				"Format CSS: Compact"
+			],
+			[
+				"moni",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"exp",
+				"Format CSS: Expanded"
+			],
+			[
+				"hype",
+				"Hyperlink Helper: Lookup with Google & Link"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"expa",
+				"Format CSS: Expanded"
+			],
+			[
+				"gulp",
+				"Snippet: gulp.task('name',function)"
+			],
+			[
+				"togglee",
+				"ToggleExclude: Conditional File / Folder Patterns: Enable"
+			],
+			[
+				"mo",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snippet col",
+				"Snippet: css-color"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"var i = 0;",
+			"f",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/Projects/Resume",
+		"/Applications/MAMP/htdocs/Projects/Resume/css",
+		"/Applications/MAMP/htdocs/Projects/Resume/less"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/Projects/Resume/gulpfile.js",
+		"/Applications/MAMP/htdocs/Projects/Resume/css/style.css",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/less/custom.less",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/less/reset.less",
+		"/Applications/MAMP/htdocs/Projects/Learn JS/train.js",
+		"/Applications/MAMP/htdocs/Projects/Learn JS/index.html",
+		"/Applications/MAMP/htdocs/Projects/Learn JS/js/module.js",
+		"/Applications/MAMP/htdocs/Projects/Learn JS/js/scripts.js",
+		"/Applications/MAMP/htdocs/Projects/Learn JS/js/app.js",
+		"/Applications/MAMP/htdocs/Projects/Learn JS/less/style.less",
+		"/Applications/MAMP/htdocs/Projects/Learn JS/js/sort-merge.js",
+		"/Applications/MAMP/htdocs/Projects/Learn JS/js/sort-buble.js",
+		"/Applications/MAMP/htdocs/Projects/Learn JS/js/require.js",
+		"/Users/Frontend/Library/Application Support/Sublime Text 3/Packages/User/JSC.sublime-build",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/front-page.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/header.php",
+		"/Applications/MAMP/htdocs/Projects/Money time/js/scripts.js",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/sponsor-room.less",
+		"/Applications/MAMP/htdocs/Projects/Money time/sponsor-room.html",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/animations.less",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/custom.less",
+		"/Applications/MAMP/htdocs/Projects/Money time/gulpfile.js",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/sprite.less",
+		"/Applications/MAMP/htdocs/Projects/Money time/index.html",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/front-page.less",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/buttons.less",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/gameroom.less",
+		"/Volumes/FusionDrive/Applications/MAMP/htdocs/wordpress.local/Vost/robots.txt",
+		"/Volumes/FusionDrive/Applications/MAMP/htdocs/wordpress.local/Vost/sitemap.xml",
+		"/Applications/MAMP/htdocs/Projects/Money time/sftp-config.json",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/game.less",
+		"/Applications/MAMP/htdocs/Projects/Money time/game.html",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/header.less",
+		"/Applications/MAMP/htdocs/Projects/Money time/gameroom.html",
+		"/Applications/MAMP/htdocs/Projects/Money time/signup-step-4.html",
+		"/Applications/MAMP/htdocs/Projects/Money time/signup-step-2.html",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/signup-step-3.less",
+		"/Applications/MAMP/htdocs/Projects/Money time/signup-step-1.html",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/signup-step-1.less",
+		"/Applications/MAMP/htdocs/Projects/Money time/signup-step-3.html",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/signup-step-2.less",
+		"/Applications/MAMP/htdocs/Projects/Money time/less/footer.less",
+		"/Users/Frontend/Library/Application Support/Sublime Text 3/Packages/User/console.log.sublime-snippet",
+		"/Users/Frontend/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Frontend/Library/Application Support/Sublime Text 3/Packages/User/console.log.sublime-macro",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/less/posts-filter.less",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/less/post.less",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/js/scripts.js",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/less/game.less",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/footer.php",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/template-parts/content-single.php",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/page.php",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/index.php",
+		"/Volumes/NO NAME/PSP/GAME/FusaGamePad/config.ini",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/less/blockquote.less",
+		"/Users/Frontend/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/2DF234D3-5D3E-4EF5-AFDC-309CF0E76131/scroll.tpl",
+		"/Users/Frontend/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/83CC2A72-2225-4F67-9C88-09CD2DD5AB26/scroll.js",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/functions.php",
+		"/Applications/MAMP/htdocs/wordpress.local/fuse-forex/wp-content/themes/fuse-forex/js/basic.js",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/header.php",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/scss/page-b.scss",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/page-b.php",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/style.css",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/index.php",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/scss/styles.scss",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/sftp-config.json",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/functions.php",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/scss/base.scss",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/scss/main.scss",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/css/style.css",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/.htaccess",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-config.php",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/scss/global.scss",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/footer.php",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/css/styles.css",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/css/styles.css.map",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-includes/functions.php",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/officecleanz.sublime-project",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/object-cache.php",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/.htaccess.orig",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-config.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/sass/style.scss",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/functions.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/assets/stylesheets/css/style.css",
+		"/Applications/MAMP/htdocs/wordpress.local/officecleanz/installer.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/assets/javascripts/script.js",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/sftp-config.json",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/404.php",
+		"/Users/user/Desktop/tech-plus-layout_fix_2.1/404.html",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/footer.php",
+		"/Users/user/Desktop/tech-plus-layout_fix_2.1/sass/style.scss",
+		"/Users/user/Desktop/index.html",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/index.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-config.php",
+		"/Users/user/Desktop/wp-config.php",
+		"/Users/user/Desktop/index.htmllll",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/index.html",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/css/style.css",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/style.css",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/single.php",
+		"/Users/user/Library/Caches/Cleanup At Startup/Transmit/39531E99-3244-46F6-9576-B09FEFDD1F8E/wp-config.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/page-services-contacts.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/page-cables-animals.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/page-armies-tunnelling.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/page-header-hospitals.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/services-contacts.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/cables-animals.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/header-hospitals.php",
+		"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/armies-tunnelling.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/footer.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/js/scripts.js",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/header.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/less/header.less",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/3EC612F5-AD50-450D-B66E-63866BC6B2E8/scroll.tpl",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/D0789228-0E1B-4016-8093-C0616F520A72/scroll.js",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/faq.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page-other.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/template.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page-contact.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/contact.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page-about.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/aboutus.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page-blog.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/investment.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page-investment.php",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/blog.html",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/less/bootstrap.less",
+		"/Applications/MAMP/htdocs/wordpress.local/knight-and-dame/wp-content/themes/knight-and-dame/page-portfolio.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.html",
+			"*.less",
+			"",
+			"/Applications/MAMP/htdocs/wordpress.local/officecleanz/wp-content/themes/office-cleaning/scss",
+			"sass",
+			"",
+			"sass",
+			"sasss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Professional Skill",
+			"Skill",
+			"skill-exp--active",
+			"text",
+			"div",
+			"skills",
+			"23",
+			"48",
+			"dependency",
+			"ff",
+			"12",
+			"10",
+			"2",
+			"10",
+			"gameca",
+			"2",
+			"benefits__item",
+			"  60% { -webkit-transform: translateY(-30px); }\n  80% { -webkit-transform: translateY(10px); }",
+			"opacity: 1; ",
+			"opacity: 0; ",
+			"2000",
+			"skip",
+			"10",
+			"left",
+			" opacity: 0; ",
+			"-l",
+			"lightSpeedOut",
+			"height: 786px;",
+			"footer-timer__skip",
+			"cabinet-nav__link",
+			"Panasonic",
+			"btn",
+			"terms__button",
+			"terms",
+			"termw",
+			"signup-step-1.html",
+			"terms__button",
+			"day",
+			"year",
+			"#myselect",
+			"selector",
+			"select-date",
+			"select-date--year",
+			"select-date",
+			"select",
+			"mobile",
+			"jumb",
+			"animation-delay",
+			"cover",
+			"benefits",
+			"play",
+			"signup-area",
+			"popular",
+			"tab-trigger",
+			"margin-left: 12px",
+			"name",
+			"4500",
+			"100D",
+			"clock__days",
+			"15:45:30",
+			"loader-ring-light",
+			" ",
+			"btn-a",
+			"main-brands-thumbs",
+			"import",
+			"pages",
+			"0 0 1.35em",
+			"0 0 1.85em",
+			"centered-content",
+			".we-clean",
+			".we-clean h2",
+			"we clean",
+			"serv",
+			"jq",
+			"styles.css",
+			"style.css",
+			"css",
+			"styles.css",
+			"style.css",
+			"style",
+			"css",
+			"object-cache",
+			"main-header-bottom",
+			"z-index: 1",
+			"    z-index: 1",
+			"src='http://tech-plus.fr/wp-includes",
+			"admin-bar.min.js",
+			"3d-model.jpg",
+			"<?php bloginfo('stylesheet_url'); ?>/",
+			"url",
+			"servi",
+			"<li>",
+			"main-header-bottom",
+			".section",
+			"section",
+			"Underscores.me",
+			"serv",
+			"renti",
+			"hospitals",
+			"serv",
+			"rent",
+			"servi",
+			"renting",
+			"Company",
+			"pt",
+			"Our trainings",
+			"cables_gallery_images",
+			"cables",
+			"animals_gallery_images",
+			"gallery_5_images",
+			"gallery_4_images",
+			"gallery_3_images",
+			"gallery_2_images",
+			"Hospitals",
+			"full-size-gallery",
+			";\n",
+			"							</",
+			"full-size-gallery",
+			"army",
+			"hospi",
+			"google-map-wrap",
+			"map",
+			"maps",
+			"map",
+			"maps",
+			"threed",
+			"icon-activ",
+			"h"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"blog-page"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1239,
+								1239
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html.sublime-syntax",
+							"buffer_scroll_name": "8f621da6",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended.tmtheme",
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "less/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1373,
+								1373
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "less",
+							"buffer_scroll_name": "0ff99bbe",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended.tmtheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1008.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 187.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "Packages/User/JSC.sublime-build",
+	"project": "resume.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gu",
+				"gulpfile.js"
+			],
+			[
+				"les",
+				"less/style.less"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"tra",
+				"train.js"
+			],
+			[
+				"ap",
+				"js/app.js"
+			],
+			[
+				"sc",
+				"js/scripts.js"
+			],
+			[
+				"scr",
+				"js/scripts.js"
+			],
+			[
+				"mo",
+				"js/module.js"
+			],
+			[
+				"so",
+				"js/sort-merge.js"
+			],
+			[
+				"bu",
+				"js/sort-buble.js"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"fro",
+				"front-page.php"
+			],
+			[
+				"he",
+				"header.php"
+			],
+			[
+				"cu",
+				"less/custom.less"
+			],
+			[
+				"spo",
+				"sponsor-room.html"
+			],
+			[
+				"ani",
+				"less/animations.less"
+			],
+			[
+				"sp",
+				"sponsor-room.html"
+			],
+			[
+				"game",
+				"less/gameroom.less"
+			],
+			[
+				"an",
+				"less/animations.less"
+			],
+			[
+				"ga",
+				"game.html"
+			],
+			[
+				"a",
+				"less/animations.less"
+			],
+			[
+				"fr",
+				"less/front-page.less"
+			],
+			[
+				"",
+				"gameroom.html"
+			],
+			[
+				"4",
+				"signup-step-4.html"
+			],
+			[
+				"3",
+				"less/signup-step-3.less"
+			],
+			[
+				"1",
+				"less/signup-step-1.less"
+			],
+			[
+				"fo",
+				"less/footer.less"
+			],
+			[
+				"2",
+				"signup-step-2.html"
+			],
+			[
+				"f",
+				"less/front-page.less"
+			],
+			[
+				"po",
+				"less/posts-filter.less"
+			],
+			[
+				"blo",
+				"less/blockquote.less"
+			],
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"sin",
+				"template-parts/content-single.php"
+			],
+			[
+				"age",
+				"page.php"
+			],
+			[
+				"fu",
+				"functions.php"
+			],
+			[
+				"ba",
+				"js/basic.js"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"pa",
+				"page-b.php"
+			],
+			[
+				"page",
+				"page-b.php"
+			],
+			[
+				"fun",
+				"wp-includes/functions.php"
+			],
+			[
+				"sf",
+				"sftp-config.json"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"se",
+				"page-services-contacts.php"
+			],
+			[
+				"cab",
+				"page-cables-animals.php"
+			],
+			[
+				"ar",
+				"page-armies-tunnelling.php"
+			],
+			[
+				"ser",
+				"page-services-contacts.php"
+			],
+			[
+				"ca",
+				"page-cables-animals.php"
+			],
+			[
+				"pah",
+				"page-header-hospitals.php"
+			],
+			[
+				"scri",
+				"assets/javascripts/script.js"
+			],
+			[
+				"sty",
+				"sass/style.scss"
+			],
+			[
+				"conta",
+				"page-services-contacts.php"
+			],
+			[
+				"oth",
+				"page-other.php"
+			],
+			[
+				"contac",
+				"page-contact.php"
+			],
+			[
+				"inve",
+				"investment.html"
+			],
+			[
+				"inv",
+				"page-investment.php"
+			],
+			[
+				"te",
+				"template.php"
+			],
+			[
+				"bl",
+				"page-blog.php"
+			],
+			[
+				"abo",
+				"about-page.php"
+			],
+			[
+				"boo",
+				"less/bootstrap.less"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"foote",
+				"footer.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"fa",
+				"less/faq.less"
+			],
+			[
+				"side",
+				"less/sidebar.less"
+			],
+			[
+				"sid",
+				"less/sidebar.less"
+			],
+			[
+				"con",
+				"less/contact.less"
+			],
+			[
+				"blog",
+				"blog.html"
+			],
+			[
+				"por",
+				"portfolio.html"
+			],
+			[
+				"si",
+				"single.html"
+			],
+			[
+				"st",
+				"less/style.less"
+			],
+			[
+				"bo",
+				"less/bootstrap.less"
+			],
+			[
+				"va",
+				"less/variables.less"
+			],
+			[
+				"i",
+				"index.html"
+			],
+			[
+				"ab",
+				"less/aboutus.less"
+			],
+			[
+				"5",
+				"less/content-5.less"
+			],
+			[
+				"s",
+				"less/style.less"
+			],
+			[
+				"cus",
+				"less/custom.less"
+			],
+			[
+				"spr",
+				"less/sprite.less"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"gi",
+				".gitignore"
+			],
+			[
+				"styl",
+				"style.css"
+			],
+			[
+				"css",
+				"style.css"
+			],
+			[
+				"7",
+				"less/content-block-7.less"
+			],
+			[
+				"ma",
+				"less/main.less"
+			],
+			[
+				"heade",
+				"header.php"
+			],
+			[
+				"jum",
+				"less/jumbotron.less"
+			],
+			[
+				"fus",
+				"functions.php"
+			],
+			[
+				"6",
+				"less/content-block-6.less"
+			],
+			[
+				"10",
+				"less/content-block-10.less"
+			],
+			[
+				"8",
+				"less/content-block-8.less"
+			],
+			[
+				"9",
+				"less/content-block-9.less"
+			],
+			[
+				"ju",
+				"less/jumbotron.less"
+			],
+			[
+				"j",
+				"less/jumbotron.less"
+			],
+			[
+				"sy",
+				"style.css"
+			],
+			[
+				"le",
+				"less/custom.less"
+			],
+			[
+				"v",
+				"less/variables.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/Tech plus.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
