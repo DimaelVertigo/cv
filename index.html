@@ -7,312 +7,380 @@
 	<link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+<div class="wrapper">
+	<header class="site-header">
+		<div class="site-header__avatar">
+			<div class="photo"></div>
+		</div>
+		<div class="site-header__name">Dmitry Klimenko</div>
+		<div class="site-header__position">Front-end developer</div>
+		<p class="site-header__description">Worked with Smarty PHP Engine and WordPress CMS. I use markup BEM
+			metodology and Node.js layer in server side as legacy from Yandex. Now I work with security commands as user
+			interface developer and prefer React and ES6.</p>
+	</header>
 
-	<div class="wrapper">
-
-		<header class="site-header">
-			<div class="site-header__avatar"><div class="photo"></div></div>
-			<div class="site-header__name">Dmitry Klimenko</div>
-			<div class="site-header__position">Front-end developer</div>
-			<p class="site-header__description">Worked with Smarty PHP Engine and WordPress CMS. I use markup BEM
-				metodology and Node.js layer in server side as legacy from Yandex. Now I  work with security commands as user interface developer and prefer React and ES6.</p>
-		</header>
-
-		<div class="education">
-			<div class="education__line"></div>
-			<div class="education__info education__info--academy">
+	<div class="education">
+		<div class="education__line"></div>
+		<div class="education__info education__info--academy">
+			<i class="education__icon">
+				<svg data-src="images/svg/education.svg"/>
+			</i>
+			<div class="education__text">
 				Odessa National<br> Academy of Communication<br> named after A.S.Popov<br> [2003 - 2010]
 			</div>
-			<div class="education__info education__info--fac">
+		</div>
+		<div class="education__info education__info--dac">
+			<i class="education__icon">
+				<svg data-src="images/svg/faculty.svg"/>
+			</i>
+			<div class="education__text">
 				Communications Engineer<br>
 				7.092401<br>
-				 Telecommunication Systems<br>Department
+				Telecommunication Systems<br>Department
 			</div>
-			<div class="education__info education__info--spec">
+		</div>
+		<div class="education__info education__info--spec">
+			<i class="education__icon">
+				<svg data-src="images/svg/diploma.svg"/>
+			</i>
+			<div class="education__text">
 				Information Security<br> Specialization
 			</div>
 		</div>
+	</div>
 
-		<div class="info-experience">
-			<div class="info info--big">
-				<h2 class="title">Experience</h2>
-				<p class="info__work">
-					Front-end developer
-					<span class="small">
-						[ 2017 - present ]
-						<br>Comodo Group</span>
-				</p>
-				<p class="info__work">
-					Front-end developer
-					<span class="small">
-						[ 2016 - 2017 ]
-						<br>Yandex</span>
-				</p>
-				<p class="info__work">
-					Front-end developer
-					<span class="small">
-						[ 2016 ]
-						<br>Clickky Family</span>
-				</p>
-				<p class="info__work">
-					Front-end developer
-					<span class="small">
-						[ 2013 - 2016 ]
-						<br>Heartbeat.ua</span>
-				</p>
+	<div class="info-experience">
+		<div class="info info--big">
+			<h2 class="title">Experience</h2>
+			<div class="info__work">
+				<div class="workplace">
+					<i class="workplace__icon">
+						<img src="images/comodo.png" srcset="images/comodo.png 1x, images/comodo-2x.png 2x" alt="Comodo logo">
+					</i>
+					<div class="workplace__texts">
+						<div class="workplace__name">Comodo</div>
+						<div class="workplace__position">[ 2017 - present]</div>
+					</div>
+				</div>
 			</div>
-			<div class="info info--big">
-				<h2 class="title">Personal Info</h2>
-				<p class="info__personal">
-					<span class="info__key">Birthday</span>	: <span class="info__value">03 Mar 1986</span>
-				</p>
-				<p class="info__personal">
-					<span class="info__key">Phone</span>	: <a href="tel:++380630231170"class="info__value">+38 063 023 11 70</a>
-				</p>
-				<p class="info__personal">
-					<span class="info__key">E-mail</span>	: <a href="mailto:klimenko.dmitro@gmail.com" class="info__value">klimenko.dmitro@gmail.com</a>
-				</p>
-				<p class="info__personal">
-					<span class="info__key">LinkedIn</span> : <a href="https://www.linkedin.com/in/dmitry-klimenko-6b5ba784/" class="info__value" target="_blank">profile</a>
-				</p>
-				<p class="info__personal">
-					<span class="info__key">GitHub</span>	: <a href="https://github.com/DimaelVertigo" target="_blank" class="info__value">DimaelVertigo</a>
-				</p>
+			<div class="info__work">
+				<div class="workplace">
+					<i class="workplace__icon">
+						<svg data-src="images/svg/yandex.svg"/>
+					</i>
+					<div class="workplace__texts">
+						<div class="workplace__name">Яндекс</div>
+						<div class="workplace__position">[ 2016 - 2017]</div>
+					</div>
+				</div>
+			</div>
+			<div class="info__work">
+				<div class="workplace">
+					<i class="workplace__icon">
+						<svg data-src="images/svg/clickky.svg"/>
+					</i>
+					<div class="workplace__texts">
+						<div class="workplace__name">Clickky Family</div>
+						<div class="workplace__position">[ 2016 ]</div>
+					</div>
+				</div>
+			</div>
+			<div class="info__work">
+				<div class="workplace">
+					<i class="workplace__icon">
+						<svg data-src="images/svg/hb.svg"/>
+					</i>
+					<div class="workplace__texts">
+						<div class="workplace__name">Heartbeat.ua</div>
+						<div class="workplace__position">[ 2013 - 2016 ]</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="info info--big">
+			<h2 class="title">Personal Info</h2>
+			<p class="info__personal">
+				<span class="info__key">Birthday</span> : <span class="info__value">03 Mar 1986</span>
+			</p>
+			<p class="info__personal">
+				<span class="info__key">Phone</span> : <a href="tel:++380630231170" class="info__value">+38 063 023 11 70</a>
+			</p>
+			<p class="info__personal">
+				<span class="info__key">E-mail</span> : <a href="mailto:klimenko.dmitro@gmail.com" class="info__value">klimenko.dmitro@gmail.com</a>
+			</p>
+			<p class="info__personal">
+				<span class="info__key">LinkedIn</span> : <a href="https://www.linkedin.com/in/dmitry-klimenko-6b5ba784/"
+																										 class="info__value" target="_blank">profile</a>
+			</p>
+			<p class="info__personal">
+				<span class="info__key">GitHub</span> : <a href="https://github.com/DimaelVertigo" target="_blank"
+																									 class="info__value">DimaelVertigo</a>
+			</p>
+		</div>
+	</div>
+
+	<div class="prof-skills">
+		<div class="info info--small">
+			<h2 class="title">Professional Skills</h2>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">HTML</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">CSS</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">JavaScript</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">jQuery</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">React + Redux</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">Gulp</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">Webpack</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="info info--small">
+			<h2 class="title">Tools</h2>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">LESS/SASS</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active "></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">Photoshop</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">Sketch</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">Git</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">BEM</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">XSLT</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">NPM</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
 			</div>
 		</div>
 
-		<div class="prof-skills">
-			<div class="info info--small">
-				<h2 class="title">Professional Skills</h2>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">HTML</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">CSS</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">JavaScript</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">jQuery</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">React + Redux</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">Gulp</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">Webpack</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
+		<div class="info info--small">
+			<h2 class="title">Personal Skills</h2>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">Educability</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+				</ul>
 			</div>
-			<div class="info info--small">
-				<h2 class="title">Tools</h2>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">LESS/SASS</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active "></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">Photoshop</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">Sketch</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">Git</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">BEM</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">XSLT</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">NPM</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">Teamwork</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">Pixel Perfect</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">Pernicious habits</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
 			</div>
 
-			<div class="info info--small">
-				<h2 class="title">Personal Skills</h2>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">Educability</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">Teamwork</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">Pixel Perfect</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">Pernicious habits</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				
-				<h2 class="title">OS</h2>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">Windows</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
-				<div class="prof-skills__group">
-					<span class="prof-skills__name">MacOS</span>
-					<ul class="prof-skills__rate">
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp prof-skills__exp--active"></li>
-						<li class="prof-skills__exp"></li>
-					</ul>
-				</div>
+			<h2 class="title">OS</h2>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">Windows</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
 			</div>
-			
-		</div>
-
-		<div class="hobbies">
-			<h2 class="title">Passion & Hobbies </h2>
-			<ul class="hobbies__list">
-				<li class="hobbies__item">Self<br>cultivation</li>
-				<li class="hobbies__item">Fitness</li>
-				<li class="hobbies__item">Reading</li>
-				<li class="hobbies__item">Guitar</li>
-				<li class="hobbies__item">Bike</li>
-				<li class="hobbies__item">Web<br>development</li>
-			</ul>
+			<div class="prof-skills__group">
+				<span class="prof-skills__name">MacOS</span>
+				<ul class="prof-skills__rate">
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp prof-skills__exp--active"></li>
+					<li class="prof-skills__exp"></li>
+				</ul>
+			</div>
 		</div>
 
 	</div>
-	
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>  
-	
+	<div class="hobbies">
+		<h2 class="title">Passion & Hobbies </h2>
+		<ul class="hobbies__list">
+			<li class="hobbies__item">
+				<i class="hobbies__icon">
+					<svg data-src="images/svg/self-cultivation.svg"/>
+				</i>
+				<div class="hobbies__text">Self<br>cultivation</div>
+			</li>
+			<li class="hobbies__item">
+				<i class="hobbies__icon">
+					<svg data-src="images/svg/fitness.svg"/>
+				</i>
+				<div class="hobbies__text">Fitness</div>
+			</li>
+			<li class="hobbies__item">
+				<i class="hobbies__icon">
+					<svg data-src="images/svg/reading.svg"/>
+				</i>
+				<div class="hobbies__text">Reading</div>
+			</li>
+			<li class="hobbies__item">
+				<i class="hobbies__icon">
+					<svg data-src="images/svg/guitar.svg"/>
+				</i>
+				<div class="hobbies__text">Guitar</div>
+			</li>
+			<li class="hobbies__item">
+				<i class="hobbies__icon">
+					<svg data-src="images/svg/bike.svg"/>
+				</i>
+				<div class="hobbies__text">Bike</div>
+			</li>
+			<li class="hobbies__item">
+				<i class="hobbies__icon">
+					<svg data-src="images/svg/web-dev.svg"/>
+				</i>
+				<div class="hobbies__text">Web<br>development</div>
+			</li>
+		</ul>
+	</div>
+
+</div>
+
+<script src="scripts/vendor/svg-injector.js"></script>
+<script src="scripts/scripts.js"></script>
+
 </body>
 </html>
