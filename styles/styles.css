@@ -221,6 +221,7 @@ body {
   -ms-flex-direction: column;
       flex-direction: column;
   font-size: 2rem;
+  overflow: hidden;
 }
 @media only screen and (min-width : 320px) and (max-width : 768px) {
   .wrapper {
@@ -369,6 +370,11 @@ a {
   top: -10px;
   left: calc(50% - 12px);
 }
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+  .education__text {
+    font-size: 1.2rem;
+  }
+}
 .education__icon {
   position: absolute;
   top: -180px;
@@ -376,8 +382,8 @@ a {
 }
 @media only screen and (min-width : 320px) and (max-width : 768px) {
   .education__icon {
-    top: -130px;
-    left: calc(50% - 50px);
+    top: -100px;
+    left: calc(50% - 35px);
   }
 }
 .education__icon svg {
@@ -386,8 +392,8 @@ a {
 }
 @media only screen and (min-width : 320px) and (max-width : 768px) {
   .education__icon svg {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
   }
 }
 .info-experience {
@@ -398,9 +404,6 @@ a {
   margin-top: 70px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-.info {
-  min-width: 316px;
 }
 .info--big {
   width: 40%;
@@ -531,6 +534,7 @@ a {
 }
 .hobbies {
   margin-top: 70px;
+  padding: 0 15px;
 }
 .hobbies__list {
   display: -ms-flexbox;
@@ -551,6 +555,11 @@ a {
       align-items: center;
   text-align: center;
   margin: 0 20px;
+}
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+  .hobbies__item {
+    margin-bottom: 30px;
+  }
 }
 .hobbies__item:hover svg {
   transform: scale(1.1);
